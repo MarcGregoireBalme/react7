@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import MyFormMovie from './Formulaire';
+import MyFormMovie from './MyFormMovie';
 import './App.css';
 
 class App extends Component {
