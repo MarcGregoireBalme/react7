@@ -52,12 +52,9 @@ class MyFormMovie extends Component {
                 if (res.error) {
                     alert(res.error);
                 } else {
-                    /*alert(`Film ajouté avec l'ID ${res}!`);*/
+                    alert(`Film ajouté avec l'ID ${res}!`);
                 }
-            }).catch(e => {
-                console.error(e);
-                alert('Erreur lors de l\'ajout d\'un film');
-            });
+            })
 
         return (
 
